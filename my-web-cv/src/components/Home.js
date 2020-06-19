@@ -19,10 +19,6 @@ export default class Home extends Component {
               <About />
               <Education />
               <Experience />
-              {/* <Skills />
-              
-              <Education />
-              <Portfolios /> */}
             </div>
           </div>
         </div>
