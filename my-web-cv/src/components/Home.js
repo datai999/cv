@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar.js";
 import Profile from "./Profile.js";
+import About from "./About.js";
+import Education from "./Education.js";
+import Experience from "./Experience.js";
 
 export default class Home extends Component {
   render() {
@@ -13,12 +16,13 @@ export default class Home extends Component {
               <Profile />
             </div>
             <div className="col s12 m8 l9">
-              {/* <About />
-              <Skills />
+              <About />
+              <Education />
               <Experience />
+              {/* <Skills />
+              
               <Education />
               <Portfolios /> */}
-              <p>nội dung</p>
             </div>
           </div>
         </div>

@@ -16,39 +16,39 @@ export default class Navbar extends Component {
         <nav className="light-blue darken-4">
           <div className="container">
             <div className="nav-wrapper">
-              <Link to="/" className="brand-logo">
-                Đức Anh Tài
+              <Link to="/cv" className="brand-logo">
+                Web React CV
               </Link>
-              <Link to="/" data-target="slide-out" className="sidenav-trigger">
+              <Link to="/cv" data-target="slide-out" className="sidenav-trigger">
                 <i className="material-icons">menu</i>
               </Link>
               <ul className="right hide-on-med-and-down">
                 <li>
-                  <Link to="/">
+                  <Link to="/cv">
                     <FontAwesomeIcon icon={faHome} />
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link to="/skills">
+                  <Link to="/cv/#">
                     <FontAwesomeIcon icon={faCopy} />
                     Skills
                   </Link>
                 </li>
                 <li>
-                  <Link to="/experience">
+                  <Link to="/cv/#">
                     <FontAwesomeIcon icon={faIdBadge} />
                     Experience
                   </Link>
                 </li>
                 <li>
-                  <Link to="/education">
+                  <Link to="/cv/#">
                     <FontAwesomeIcon icon={faGraduationCap} />
                     Education
                   </Link>
                 </li>
                 <li>
-                  <Link to="/portfolios">
+                  <Link to="/cv/#">
                     <FontAwesomeIcon icon={faAddressCard} />
                     Portfolios
                   </Link>
@@ -59,31 +59,31 @@ export default class Navbar extends Component {
         </nav>
         <ul className="sidenav" id="slide-out">
           <li>
-            <Link to="/">
+            <Link to="/cv">
               <FontAwesomeIcon icon={faHome} />
               Home
             </Link>
           </li>
           <li>
-            <Link to="/skills">
+            <Link to="/cv/skills">
               <FontAwesomeIcon icon={faCopy} />
               Skills
             </Link>
           </li>
           <li>
-            <Link to="/experience">
+            <Link to="/cv/experience">
               <FontAwesomeIcon icon={faIdBadge} />
               Experience
             </Link>
           </li>
           <li>
-            <Link to="/education">
+            <Link to="/cv/education">
               <FontAwesomeIcon icon={faGraduationCap} />
               Education
             </Link>
           </li>
           <li>
-            <Link to="/portfolios">
+            <Link to="/cv/portfolios">
               <FontAwesomeIcon icon={faAddressCard} />
               Portfolios
             </Link>
